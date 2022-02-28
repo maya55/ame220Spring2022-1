@@ -1,114 +1,88 @@
-# Assignment 3
-`Due Feb 9, before class`
+# Assignment 4
+`Due feb 16, before class`
+
 
 ## Tasks
-1. Convert to rgb format (4 pts.)
- - #a3461f = RBG(163,70,16)
-        R = a3 = 16^1 * a + 16^0 * 3 = (16 * 10) + (1 * 3) = 163 
-        G = 46 = 16^1 * 4 + 16^0 * 6= (16 * 4) + (1 * 6) = 70
-        B = 1f = 16^1 * 1 + 16^0 * f = (16 * 1) + (1 * 15) = 16
+<!doctuype html>
+<html>
+<head>
+  <title> My Resume </title>
+  <style>
+    th, td {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
- - #ab34c6 =  RBG(171,52,198)
-        R = ab = 16^1 * a + 16^0 * b = (16 * 10) + (1 * 11) = 171
-        G = 34 = 16^1 * 3 + 16^0 * 4 = (16 * 3) + (1 * 4) = 52
-        B = c6 = 16^1 * c + 16^0 * 6 = (16 * 12) + (1 * 6) = 198 
+<body>
+<img src='https://lh3.googleusercontent.com/a-/AOh14GisiPfI6t0cWni1kc9YxDyS4GPaWjSaPzTFTOWG=s360-p-rw-no'>
+<h1> Cristina Maya </h1>
+<a href='https://www.google.com/maps/dir//asu+address/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x872b1222c8fe8da9:0x9531f6a75c71079a?sa=X&ved=2ahUKEwju6N_B1Nz1AhXBIUQIHWWjBJgQ9Rd6BAgGEAQ'><address> My address </address></a>
+<a href='https://www.asu.edu/about/contact'><phone> My number </phone></a>
 
- - #7feb23 = RBG(127, 235, 35)
-        R = 7f = 16^1 * 7 + 16^0 * f = (16 * 7) + (1 * 15) = 127
-        G = eb = 16^1 * e + 16^0 * b = (16 * 14) + (1 * 11) = 235
-        B = 23 = 16^1 * 2 + 16^0 * 3 = (16 * 2) + (1 * 3) = 35 
+<h2> Objective </h2>
+<p> Get a web programming job. </p>
+    
+<h2> Education </h2>
+	<table style='border: 1px solid black;border-collapse: collapse'>
+		<thead>
+			<tr>
+				<th>Degree/Diploma</th>
+				<th>School</th>
+				<th>Year</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>High School Diploma &nbsp;</td>
+				<td>Bradshaw Mountain High School &nbsp;</td>
+				<td>2008-2011 &nbsp;</td>
+			</tr>
+			<tr>
+				<td>Associates Degree &nbsp;</td>
+				<td>Glendale Community College &nbsp;</td>
+				<td>2018-2020 &nbsp;</td>
+			</tr>
+			<tr>
+				<td>Bachelors Degree &nbsp;</td>
+				<td>ASU &nbsp;</td>
+				<td>2021-current &nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
 
- - #b4571a = RBG(180, 87, 26)
-        R = b4 = 16^1 * b + 16^0 * 4 = (16 * 11) + (1 * 4)= 180
-        G = 57 = 16^1 * 5 + 16^0 * 7 = (16 * 5) + (1 * 7) = 87 
-        B = 1a = 16^1 * 1 + 16^0 * a = (16 * 1) + (1 * 10) = 26 
+<h2> Experience </h2>
 
- - #6ab34c = RBG(106, 179, 76)
-        R = 6a = 16^1 * 6 + 16^0 * a = (16 * 6) + (1 * 10) = 106
-        G = b3 = 16^1 * b + 16^0 * 3 = (16 * 11) + (1 * 3) = 179
-        B = 4c = 16^1 * 4 + 16^0 * c = (16 * 4) + (1 * 12) = 76
-        
- - #b237fe = RBG(178, 55, 254)
-        R = b2 = 16^1 * b + 16^0 * 2 = (16 * 11) + (1 * 2) = 178
-        G = 37 = 16^1 * 3 + 16^0 * 7 = (16 * 3) + (1 * 7) = 55
-        B = fe = 16^1 * f + 16^0 * e = (16 * 15) + (1 * 14) = 254
-        
- - #71ab45 = RBG(113, 171, 69)
-        R = 71 = 16^1 * 7 + 16^0 * 1 = (16 * 7) + (1 * 1) = 113
-        G = ab = 16^1 * a + 16^0 * b = (16 * 10) + (1 * 11) = 171
-        B = 45 = 16^1 * 4 + 16^0 * 5 = (16 * 4) + (1 * 5) = 69
+<ol>
+<li>
+<strong> Yates Buick GMC: </strong> 
+As lead Quick Lube Service Advisor I was responisble for overseeing the maintenance services provided 
+<br>on clients vehicles as well as approving recommended services betweent he client and automotive mechanics. 
+</li>
+<li>
 
- - #715ab4 = RBG(113, 90, 180)
-        R = 71 = 16^1 * 7 + 16^0 * 1 = (16 * 7) + (1 * 1) = 113
-        G = 5a = 16^1 * 5 + 16^0 * a = (16 * 5) + (1 * 10) = 90
-        B = b4 = 16^1 * b + 16^0 * 4 = (16 * 11) + (1 * 4) = 180
-         
+<strong> KinderCare Toddler Teacher: </strong> 
+As a toddler teacher I was responsible for organizing and following an educational curriculum. As well as 
+<br> communicate clearly and effectively with students and families to support the developmental growth of each child. 
+</li>
+<li>
 
-e.g: 
-```
-#d6a6b9 = rgb(214,166,185) 
-d6 = d * 16^1 + 6 * 16^0 = 13 * 16 + 6 * 1 = 214
-a6 = a * 16^1 + 6 * 16^0 = 10 * 16 + 6 * 1 = 166
-b9 = b * 16^1 + 9 * 16^0 = 11 * 16 + 9 * 1 = 185
-```
- 
-2. Convert to hex format (4 pts.)
-    - rgb(213, 12,112) = #d50c70 
-            213 = 16 * 13 + 1 * 5 = d5
-            12 = 16 * 0 + 1 * 12 = 0c
-            112 = 16 * 7 + 1 * 0 = 70
+<strong> Maricopa Community College District: </strong> 
+As a scholarship student advisor I was responsible for the outreach of past alumni and host meetings as well 
+<br>navagate the gathering. 
+</li>
+</ol>
 
-    - rgb(22,126,52) = #167e34
-            22 = 16 * 1 + 1 * 6 = 16
-            126 = 16 * 7 + 1 * 14 = 7e
-            52 = 16 * 3 + 1 * 4 = 34
+<h2> References </h2>
+<ul>
+  <li>Leona Morales</li>
+  <li>Erick Biber</li>
+  <li>Jo Ann Martinez</li>
+</ul>
 
-    - rgb(213,214,41) = #d5d629
-            213 = 16 * 13 + 1 * 5 = d5
-            214 = 16 * 13 + 1 * 6 = d6
-            41 = 16 * 2 + 1 * 9 = 29
-
-    - rgb(113,22,113) = #711771
-            113 = 16 * 7 + 1 * 1 = 71
-            22 = 16 * 1 + 1 * 7 = 17
-            113 = 16 * 7 + 1 * 1 = 71
-
-    - rgb(126,112,172) = #7e70ac 
-            126 = 16 * 7 + 1 * 14 = 7e
-            112 = 16 * 7 + 1 * 0 = 70
-            172 = 16 * 10 + 1 * 12 = ac 
-
-    - rgb(142,24,241) = #8e18f4 
-            142 = 16 * 8 + 1 * 14 = 8e
-            24 = 16 * 1 + 1 * 8 = 18
-            241 = 16 * 15 + 1 * 4 = f4
-
-    - rgb(123,32,121) = #7b2079
-            123 = 16 * 7 + 1 * 11 = 7b
-            32 = 16 * 2 + 1 * 0 = 20
-            121 = 16 * 7 + 1 * 9 = 79
-
-    - rgba(127,123,224,.4) = #7f7be0
-            127 = 16 * 7 + 1 * 15 = 7f
-            123 = 16 * 7 + 1 * 11 = 7b
-            224 = 16 * 14 + 1 * 0 = e0 
-            .4 =
-
-
-e.g:
-```
-rgb(123,56,245) = #7b38f5 
-123 = 16 * 7 + 1 * 11 = 7b 
-56 = 16 * 3 + 1 * 8 = 38 
-245 = 16 * 15 + 1 * 5 = f5
-```
-
-## Question (2 pts.)
-List 4 css properties that need color values.
-- background-color
-- border-left-color
-- border-right-color
-- border-color
-
+</body>
+</html>
 
 
